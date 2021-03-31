@@ -38,7 +38,10 @@ namespace helloapp
             //    });
             //});
 
-
+            //my new changes on dev 
+            // new
+            int x = 0;
+            x++;
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync(messageSender.Send());
